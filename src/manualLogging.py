@@ -16,7 +16,7 @@ y=wine.target
 
 
 xtrain,xtest,ytrain,ytest=train_test_split(x,y,test_size=0.3,random_state=42)
-max_depth=5
+max_depth=6
 n_estimators=10
 
 with mlflow.start_run():
@@ -27,4 +27,3 @@ with mlflow.start_run():
     mlflow.log_metric('accuracy',accuracy)
     mlflow.log_param('max depth',max_depth)
     mlflow.log_param('n estimators',n_estimators)
-    
