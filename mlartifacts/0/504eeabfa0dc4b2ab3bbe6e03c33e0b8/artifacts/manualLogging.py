@@ -9,34 +9,31 @@ import seaborn as sns
 
 mlflow.set_tracking_uri('http://127.0.0.1:5000')
 
+
+
 wine=load_wine()
 x=wine.data
 y=wine.target
 
 
 xtrain,xtest,ytrain,ytest=train_test_split(x,y,test_size=0.3,random_state=42)
-max_depth=7
+max_depth=6
 n_estimators=10
 
-rf=RandomForestClassifier(max_depth=max_depth,n_estimators=n_estimators,random_state=42)
-rf.fit(xtrain,ytrain)
-ypred=rf.predict(xtest)
-accuracy=accuracy_score(ypred,ytest)
-confusionMat=confusion_matrix(ypred,ytest)
-plt.figure(figsize=(6,6))
-sns.heatmap(confusionMat,annot=True,fmt='d',cmap='Blues',xticklabels=wine.target_names,yticklabels=wine.target_names)
-plt.ylabel('Actual')
-plt.xlabel('Predicted')
-plt.savefig('ConfusionMat.png')
-
-# mlflow.set_experiment('Experiment1')
-
-with mlflow.start_run(experiment_id=992522268439111852):
+with mlflow.start_run():
+    rf=RandomForestClassifier(max_depth=max_depth,n_estimators=n_estimators,random_state=42)
+    rf.fit(xtrain,ytrain)
+    ypred=rf.predict(xtest)
+    accuracy=accuracy_score(ypred,ytest)
     mlflow.log_metric('accuracy',accuracy)
     mlflow.log_param('max depth',max_depth)
     mlflow.log_param('n estimators',n_estimators)
+    confusionMat=confusion_matrix(ypred,ytest)
+    plt.figure(figsize=(6,6))
+    sns.heatmap(confusionMat,annot=True,fmt='d',cmap='Blues',xticklabels=wine.target_names,yticklabels=wine.target_names)
+    plt.ylabel('Actual')
+    plt.xlabel('Predicted')
+    plt.savefig('ConfusionMat.png')
     mlflow.log_artifact('confusionMat.png')
     mlflow.log_artifact(__file__)
-    mlflow.set_tags({'Dev':'Aliyan','Project':'Classification'})
-    mlflow.sklearn.log_model(rf,'Random Forest')
 

@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/1c02d66c1a6a44ba9080c544bc595fc9/artifacts
+deleted_time: 1741281458068
+end_time: 1741281366245
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 1c02d66c1a6a44ba9080c544bc595fc9
+run_name: placid-wren-336
+run_uuid: 1c02d66c1a6a44ba9080c544bc595fc9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741281365982
+status: 4
+tags: []
+user_id: Muhammad Aliyan

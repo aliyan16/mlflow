@@ -15,7 +15,7 @@ y=wine.target
 
 
 xtrain,xtest,ytrain,ytest=train_test_split(x,y,test_size=0.3,random_state=42)
-max_depth=7
+max_depth=4
 n_estimators=10
 
 rf=RandomForestClassifier(max_depth=max_depth,n_estimators=n_estimators,random_state=42)
@@ -29,14 +29,10 @@ plt.ylabel('Actual')
 plt.xlabel('Predicted')
 plt.savefig('ConfusionMat.png')
 
-# mlflow.set_experiment('Experiment1')
-
-with mlflow.start_run(experiment_id=992522268439111852):
+with mlflow.start_run():
     mlflow.log_metric('accuracy',accuracy)
     mlflow.log_param('max depth',max_depth)
     mlflow.log_param('n estimators',n_estimators)
     mlflow.log_artifact('confusionMat.png')
     mlflow.log_artifact(__file__)
-    mlflow.set_tags({'Dev':'Aliyan','Project':'Classification'})
-    mlflow.sklearn.log_model(rf,'Random Forest')
 

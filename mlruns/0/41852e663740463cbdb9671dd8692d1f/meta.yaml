@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/41852e663740463cbdb9671dd8692d1f/artifacts
+end_time: 1741281703297
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 41852e663740463cbdb9671dd8692d1f
+run_name: dashing-steed-803
+run_uuid: 41852e663740463cbdb9671dd8692d1f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741281703164
+status: 3
+tags: []
+user_id: Muhammad Aliyan

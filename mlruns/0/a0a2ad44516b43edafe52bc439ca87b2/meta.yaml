@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/a0a2ad44516b43edafe52bc439ca87b2/artifacts
+deleted_time: 1741281458068
+end_time: 1741281218489
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: a0a2ad44516b43edafe52bc439ca87b2
+run_name: delightful-yak-409
+run_uuid: a0a2ad44516b43edafe52bc439ca87b2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741281218136
+status: 4
+tags: []
+user_id: Muhammad Aliyan

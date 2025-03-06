@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/25c1be9f6cd04f9b83869e6ce802577f/artifacts
+end_time: 1741281581646
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 25c1be9f6cd04f9b83869e6ce802577f
+run_name: ambitious-bird-260
+run_uuid: 25c1be9f6cd04f9b83869e6ce802577f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741281581301
+status: 3
+tags: []
+user_id: Muhammad Aliyan
