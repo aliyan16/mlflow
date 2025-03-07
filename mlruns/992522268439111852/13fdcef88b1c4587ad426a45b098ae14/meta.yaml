@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/992522268439111852/13fdcef88b1c4587ad426a45b098ae14/artifacts
+end_time: 1741310279565
+entry_point_name: ''
+experiment_id: '992522268439111852'
+lifecycle_stage: active
+run_id: 13fdcef88b1c4587ad426a45b098ae14
+run_name: righteous-wasp-274
+run_uuid: 13fdcef88b1c4587ad426a45b098ae14
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741310279506
+status: 3
+tags: []
+user_id: Muhammad Aliyan

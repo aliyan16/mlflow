@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/992522268439111852/c2e21547cbf14d24836349245de1c524/artifacts
+end_time: 1741310664341
+entry_point_name: ''
+experiment_id: '992522268439111852'
+lifecycle_stage: active
+run_id: c2e21547cbf14d24836349245de1c524
+run_name: dashing-yak-879
+run_uuid: c2e21547cbf14d24836349245de1c524
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741310664293
+status: 3
+tags: []
+user_id: Muhammad Aliyan

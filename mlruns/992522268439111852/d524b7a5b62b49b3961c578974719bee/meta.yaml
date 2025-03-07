@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/992522268439111852/d524b7a5b62b49b3961c578974719bee/artifacts
+end_time: 1741310664126
+entry_point_name: ''
+experiment_id: '992522268439111852'
+lifecycle_stage: active
+run_id: d524b7a5b62b49b3961c578974719bee
+run_name: casual-wasp-432
+run_uuid: d524b7a5b62b49b3961c578974719bee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741310660132
+status: 3
+tags: []
+user_id: Muhammad Aliyan

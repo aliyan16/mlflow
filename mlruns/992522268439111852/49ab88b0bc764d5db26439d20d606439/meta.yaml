@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/992522268439111852/49ab88b0bc764d5db26439d20d606439/artifacts
+end_time: 1741310689498
+entry_point_name: ''
+experiment_id: '992522268439111852'
+lifecycle_stage: active
+run_id: 49ab88b0bc764d5db26439d20d606439
+run_name: dashing-boar-466
+run_uuid: 49ab88b0bc764d5db26439d20d606439
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741310689451
+status: 3
+tags: []
+user_id: Muhammad Aliyan

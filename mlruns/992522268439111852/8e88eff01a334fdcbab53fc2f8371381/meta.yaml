@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/992522268439111852/8e88eff01a334fdcbab53fc2f8371381/artifacts
+end_time: 1741310433299
+entry_point_name: ''
+experiment_id: '992522268439111852'
+lifecycle_stage: active
+run_id: 8e88eff01a334fdcbab53fc2f8371381
+run_name: awesome-stork-151
+run_uuid: 8e88eff01a334fdcbab53fc2f8371381
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741310433250
+status: 3
+tags: []
+user_id: Muhammad Aliyan

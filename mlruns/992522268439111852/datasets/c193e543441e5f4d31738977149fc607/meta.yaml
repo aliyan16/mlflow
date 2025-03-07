@@ -1,0 +1,8 @@
+digest: bdb1570e
+name: dataset
+profile: '{"features_shape": [54, 13], "features_size": 702, "features_nbytes": 5616}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float64\", \"shape\": [-1, 13]}}]", "targets": null}}'
+source: '{"tags": {"mlflow.user": "Muhammad Aliyan", "mlflow.source.name": "c:/AllData/Selfskills/MachineLearning&ComputerVision/MLOps/mlflow/src/autoLogging.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "45d647969480ff21a454f5ae00d18367f421a3e5"}}'
+source_type: code
