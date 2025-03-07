@@ -26,6 +26,7 @@ bestScore=grid.best_score_
 
 with mlflow.start_run() as parent:
     for i in range(len(grid.cv_results_['params'])):
+        with mlflow.start_run(nested=True)
         mlflow.log_params(grid.cv_results_['params'][i])
         mlflow.log_metric('accuracy',grid.cv_results_['mean_test_score'][i])
     mlflow.log_metric('accuracy',bestScore)
